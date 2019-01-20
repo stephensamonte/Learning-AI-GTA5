@@ -16,4 +16,5 @@ The purpose of mods is to beable to control the environment. I added 2 Tesla Car
 - 2018.01.02 Ordered 4 tb external hard drive. 
 - 2019.01.06 Recieved and Installed GTA 5 on 4 tb Hard Drive and installed mods. 
 - 2019.01.07 Created GitHub Repository and readme.md file. Also added License.
+- 2019.01.19 Added Screen Capture Function
 
