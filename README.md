@@ -1,6 +1,6 @@
 # Learning-AI-GTA5
 
-GTA 5 is the closest simulation of living life. The end goal of this project is to create a general AI that understands its surroundings and can made decisions on its own.
+GTA 5 is the closest simulation of living life. The end goal of this project is to create a general AI that understands its surroundings and can make decisions on its own.
 
 Disclaimer: I don't expect to succeed at creating a general AI. I do expect to create a program that can play GTA 5 well. I think it will be a mash up of multiple AIs. 
 
