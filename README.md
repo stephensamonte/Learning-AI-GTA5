@@ -9,7 +9,7 @@ Disclaimer: I don't expect to succeed at creating a general AI. I do expect to c
 - Create functions to call Keyboard interaction
 
 # Environment 
-We are making changes to this project on a windows machine and are running GTA 5 baught from Steam for $30.00. [Steam GTA 5](https://store.steampowered.com/app/271590/Grand_Theft_Auto_V/). This program will is being edited in the [Visual Studio Code](https://code.visualstudio.com/) set up for [python development](https://marketplace.visualstudio.com/items?itemName=ms-python.python). Here is a [tutorial for python in Visual Studio Code](https://code.visualstudio.com/docs/python/python-tutorial). 
+We are making changes to this project on a windows machine and are running GTA 5 baught from Steam for $30.00. [Steam GTA 5](https://store.steampowered.com/app/271590/Grand_Theft_Auto_V/). This program will be edited in [Visual Studio Code](https://code.visualstudio.com/) set up for [python development](https://marketplace.visualstudio.com/items?itemName=ms-python.python). Here is a [tutorial for python in Visual Studio Code](https://code.visualstudio.com/docs/python/python-tutorial). 
 
 Optional: You may install GTA 5 mods to have God mode control over the Game Environment. 
 
