@@ -8,13 +8,56 @@ Disclaimer: I don't expect to succeed at creating a general AI. I do expect to c
 - Capture the screen with OpenCV in python 
 - Create functions to call Keyboard interaction
 
-# Environment 
-We are making changes to this project on a windows machine and are running GTA 5 baught from Steam for $30.00. [Steam GTA 5](https://store.steampowered.com/app/271590/Grand_Theft_Auto_V/). This program will be edited in [Visual Studio Code](https://code.visualstudio.com/) set up for [python development](https://marketplace.visualstudio.com/items?itemName=ms-python.python). Here is a [tutorial for python in Visual Studio Code](https://code.visualstudio.com/docs/python/python-tutorial). 
+# Game Environment 
+- We are getting getting a comptuer to play [GTA 5](https://www.rockstargames.com/V/) so you have to install GTA 5 on your computer.
 
+## Installing GTA 5
+- Install GTA 5 onto your computer. I baught [GTA 5 from Steam for $30](https://store.steampowered.com/sale/gta/). 
+
+## Installing Mods for GTA 5 
 Optional: You may install GTA 5 mods to have God mode control over the Game Environment. 
+The purpose of mods is to beable to control the environment. I added 2 Tesla Car mods and sort of God Mode mod which allows me to control the traffic, weather, spawn cars, etc. 
 
-# How to Set Up Mods for GTA 5 
-The purpose of mods is to beable to control the environment. I added 2 Tesla Car mods and sort of God Mode mod which allows me to control the traffic, weather, spawn cars, etc. I made this for others who wish add mods: [2018.12.24 How to Install GTA 5 Mods]( https://docs.google.com/document/d/1k3z26HRxOlJ-v-ALhVgJuAP70ht3Ny2YI8Lj5H43o_I/edit?usp=sharing)
+I made this for others who wish add mods: [2018.12.24 How to Install GTA 5 Mods](https://docs.google.com/document/d/1k3z26HRxOlJ-v-ALhVgJuAP70ht3Ny2YI8Lj5H43o_I/edit?usp=sharing)
+
+
+# Programming Environment: 
+- This is a python program that is being modified in the [Python IDLE terminal](https://www.python.org/downloads/). This project utilizes [Python OpenCV](https://pypi.org/project/opencv-python/), and [numpy](http://www.numpy.org/). To run this project you will have to install python, python OpenCV, and numpy. 
+
+
+## Installing Python 
+- To install python follow the: [Python Windows Install](https://www.python.org/downloads/) 
+
+## Installing Python OpenCV 
+- To install OpenCV for python follow this: https://pypi.org/project/opencv-python/
+- Verify that you have installed opencv-python by opening a python script shell (IDLE terminal) and runnign the following. IF correctly installed you should see what version of openCV you have installed. 
+	Script: 
+		>>> import cv2
+		>>> cv2.__version__
+	Result:
+		>>> '3.4.5'
+
+## Installing Python Numpy 
+- To install numpy run `pip install numpy` in a terminal. 
+- Verify that you have numpy installed by opening a python script shell (IDLE terminal) and running the following. If correctly installed you should see what verion of numpy you have installed.: 
+	Script:
+		>>> import numpy as np
+		>>> np.__verion__
+	Result: 
+		>>> '1.13.1' 
+
+## Alternatives to setting up your environemnt: (DON'T DO THIS. IT IS A MORE COMPLICATED WAY TO SET UP YOUR MACHINE) 
+- OpenCV Python install on windows: [installing OpenCV](https://opencv-python-tutroals.readthedocs.io/en/latest/py_tutorials/py_setup/py_setup_in_windows/py_setup_in_windows.html#install-opencv-python-in-windows) 
+1) Install Python 2.7: [Download](http://python.org/ftp/python/2.7.5/python-2.7.5.msi)
+2) Install Numpy for python: [Download](http://sourceforge.net/projects/numpy/files/NumPy/1.7.1/numpy-1.7.1-win32-superpack-python2.7.exe/download)
+3) Installing OpenCV 4.0.0: [Download](https://sourceforge.net/projects/opencvlibrary/files/)
+
+
+## Installing TensorFlow 
+
+
+# Run the program
+- Open the .py file in the Python IDLE terminal and hit run. 
 
 # Journal: 
 - 2018.12.23 Got interested in project.
@@ -24,4 +67,10 @@ The purpose of mods is to beable to control the environment. I added 2 Tesla Car
 - 2019.01.06 Recieved and Installed GTA 5 on 4 tb Hard Drive and installed mods. 
 - 2019.01.07 Created GitHub Repository and readme.md file. Also added License.
 - 2019.01.19 Added Screen Capture Function
+- 2019.01.29 Set up computer environment for this project and added it to the README.md. Removed old screen capture program.
+- 
+
+# References
+- 
+
 
