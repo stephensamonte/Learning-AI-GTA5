@@ -30,20 +30,20 @@ I made this for others who wish add mods: [2018.12.24 How to Install GTA 5 Mods]
 
 ## Installing Python OpenCV 
 - To install OpenCV for python follow this: https://pypi.org/project/opencv-python/
-- Verify that you have installed opencv-python by opening a python script shell (IDLE terminal) and runnign the following. IF correctly installed you should see what version of openCV you have installed. 
-	Script: 
-		>>> import cv2
-		>>> cv2.__version__
-	Result:
+- Verify that you have installed opencv-python by opening a python script shell (IDLE terminal) and runnign the following. IF correctly installed you should see what version of openCV you have installed. <br />
+	Script: <br />
+		>>> import cv2 <br />
+		>>> cv2.__version__ <br />
+	Result: <br />
 		>>> '3.4.5'
 
 ## Installing Python Numpy 
 - To install numpy run `pip install numpy` in a terminal. 
-- Verify that you have numpy installed by opening a python script shell (IDLE terminal) and running the following. If correctly installed you should see what verion of numpy you have installed.: 
-	Script:
-		>>> import numpy as np
-		>>> np.__verion__
-	Result: 
+- Verify that you have numpy installed by opening a python script shell (IDLE terminal) and running the following. If correctly installed you should see what verion of numpy you have installed.: <br />
+	Script: <br />
+		>>> import numpy as np <br />
+		>>> np.__verion__ <br />
+	Result: <br />
 		>>> '1.13.1' 
 
 ## Alternatives to setting up your environemnt: (DON'T DO THIS. IT IS A MORE COMPLICATED WAY TO SET UP YOUR MACHINE) 
