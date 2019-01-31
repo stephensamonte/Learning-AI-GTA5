@@ -22,7 +22,7 @@ I made this for others who wish add mods: [2018.12.24 How to Install GTA 5 Mods]
 
 
 # Programming Environment: 
-- This is a python program that is being modified in the [Python IDLE terminal](https://www.python.org/downloads/). This project utilizes [Python OpenCV](https://pypi.org/project/opencv-python/), and [numpy](http://www.numpy.org/). To run this project you will have to install python, python OpenCV, and numpy. 
+- This is a python program that is being modified in the [Python IDLE terminal](https://www.python.org/downloads/). This project utilizes [Python OpenCV](https://pypi.org/project/opencv-python/), [numpy](http://www.numpy.org/), and [pyscreenshot Website](https://pypi.org/project/pyscreenshot/). To run this project you will have to install python, python OpenCV, and numpy. 
 
 
 ## Installing Python 
@@ -53,6 +53,18 @@ I made this for others who wish add mods: [2018.12.24 How to Install GTA 5 Mods]
 3) Installing OpenCV 4.0.0: [Download](https://sourceforge.net/projects/opencvlibrary/files/)
 
 
+## Installing pyscreenshot 
+- [pyscreenshot Website](https://pypi.org/project/pyscreenshot/) is to be able to capture the screen of a computer. 
+- [Pyscreenshot GitHub Project](https://github.com/ponty/pyscreenshot)
+- Install pyscreenshot by running: `pip install pyscreenshot`
+- pyscreenshot depends on 'Pillow' so install [Pillow](https://pillow.readthedocs.io/en/stable/) (Ubuntu: sudo apt-get install python-pil). Run `pip install Pillow`
+- Verify that you have pyscreenshot installed by opening a python script shell (IDLE terminal) and running the following. If correctly installed you should see what verion of pyscreenshot you have installed.: <br />
+	Script: <br />
+		>>> import pyscreenshot as ImageGrab <br />
+		>>> ImageGrab.__verion__ <br />
+	Result: <br />
+		>>> '0.5.1'
+
 ## Installing TensorFlow 
 
 
@@ -68,9 +80,9 @@ I made this for others who wish add mods: [2018.12.24 How to Install GTA 5 Mods]
 - 2019.01.07 Created GitHub Repository and readme.md file. Also added License.
 - 2019.01.19 Added Screen Capture Function
 - 2019.01.29 Set up computer environment for this project and added it to the README.md. Removed old screen capture program.
-- 
+- 2019.01.31 Created ScreenCapture.py and updated read me on how to install pyscreenshot to capture computer screen. 
 
 # References
-- 
+- Used for while loop when to capture video[capture-video-data-from-screen-in-python](https://stackoverflow.com/questions/35097837/capture-video-data-from-screen-in-python)
 
 
