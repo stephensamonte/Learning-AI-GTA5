@@ -5,7 +5,6 @@ GTA 5 is the closest simulation of living life. The end goal of this project is 
 Disclaimer: I don't expect to succeed at creating a general AI. I do expect to create a program that can play GTA 5 well. I think it will be a mash up of multiple AIs. 
 
 # Current Goals: 
-- Capture the screen with OpenCV in python 
 - Create functions to call Keyboard interaction
 
 # Game Environment 
@@ -24,12 +23,17 @@ I made this for others who wish add mods: [2018.12.24 How to Install GTA 5 Mods]
 # Programming Environment: 
 - This is a python program that is being modified in the [Python IDLE terminal](https://www.python.org/downloads/). This project utilizes [Python OpenCV](https://pypi.org/project/opencv-python/), [numpy](http://www.numpy.org/), and [pyscreenshot Website](https://pypi.org/project/pyscreenshot/). To run this project you will have to install python, python OpenCV, and numpy. 
 
+Modefied in Visual Studio Code. 
+1 Install [Python Interpreter Install](https://www.python.org/downloads/)
+2) Add Python Extension for Visual Studio Code: [Extension](https://marketplace.visualstudio.com/items?itemName=ms-python.python)
+3) Add openCV and pyscreenshot
+
 
 ## Installing Python 
 - To install python follow the: [Python Windows Install](https://www.python.org/downloads/) 
 
 ## Installing Python OpenCV 
-- To install OpenCV for python follow this: https://pypi.org/project/opencv-python/
+- To install OpenCV for python follow this: https://pypi.org/project/opencv-python/ Run: `pip install opencv-python`
 - Verify that you have installed opencv-python by opening a python script shell (IDLE terminal) and runnign the following. IF correctly installed you should see what version of openCV you have installed. <br />
 	Script: <br />
 		>>> import cv2 <br />
@@ -44,7 +48,7 @@ I made this for others who wish add mods: [2018.12.24 How to Install GTA 5 Mods]
 		>>> import numpy as np <br />
 		>>> np.__verion__ <br />
 	Result: <br />
-		>>> '1.13.1' 
+		>>> '1.13.1'
 
 ## Alternatives to setting up your environemnt: (DON'T DO THIS. IT IS A MORE COMPLICATED WAY TO SET UP YOUR MACHINE) 
 - OpenCV Python install on windows: [installing OpenCV](https://opencv-python-tutroals.readthedocs.io/en/latest/py_tutorials/py_setup/py_setup_in_windows/py_setup_in_windows.html#install-opencv-python-in-windows) 

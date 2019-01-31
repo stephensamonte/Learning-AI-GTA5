@@ -5,7 +5,6 @@ import pyscreenshot as ImageGrab
 import time
 
 def screen_capture():
-    
     last_time = time.time()
 
     while (True): 
