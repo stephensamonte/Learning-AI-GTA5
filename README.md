@@ -83,6 +83,9 @@ DEPRICATED: This is a python program that is being modified in the [Python IDLE 
 - 2019.01.19 Added Screen Capture Function
 - 2019.01.29 Set up computer environment for this project and added it to the README.md. Removed old screen capture program.
 - 2019.01.31 Created ScreenCapture.py and updated read me on how to install pyscreenshot to capture computer screen. I was getting about 3 frames per second which is terrible. [Showcase](https://www.youtube.com/watch?v=nY062Zz0kbM&feature=youtu.be)
+- 2019.01.31 Created MssScreenCapture.py and removed ScreenCapture.py. Mss captures frames at 45 FPS which is a big improvement from 3 frames per second with pyscreenshot [Showcase](https://www.youtube.com/watch?v=AZWjkMOSMxU&feature=youtu.be)
+
 
 # References
 - Used for while loop when to capture video[capture-video-data-from-screen-in-python](https://stackoverflow.com/questions/35097837/capture-video-data-from-screen-in-python)
+- Used for screen capture [Python MSS](https://python-mss.readthedocs.io/examples.html)
