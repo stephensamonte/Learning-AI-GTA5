@@ -1,15 +1,12 @@
 
 # Import function to capture screen
-# from screen_capture import screen_capture
+import MssScreenCapture
 
+def runLoop():
+    print("Inside loop")
 
-
-
-# def runLoop():
-#     print("Inside loop")
-
-# # Run program
-# if __name__ == '__main__':
-#     screen_capture()
+# Run program
+if __name__ == '__main__':
+    MssScreenCapture.screen_capture()
     
     
