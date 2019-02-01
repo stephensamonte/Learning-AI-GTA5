@@ -21,13 +21,16 @@ I made this for others who wish add mods: [2018.12.24 How to Install GTA 5 Mods]
 
 
 # Programming Environment: 
-- This is a python program that is being modified in the [Python IDLE terminal](https://www.python.org/downloads/). This project utilizes [Python OpenCV](https://pypi.org/project/opencv-python/), [numpy](http://www.numpy.org/), and [pyscreenshot Website](https://pypi.org/project/pyscreenshot/). To run this project you will have to install python, python OpenCV, and numpy. 
+- This is a python program that is being modified in the [Visual Studio Code](https://code.visualstudio.com/). This project utilizes [Python Interpreter Install](https://www.python.org/downloads/), [Python Visual Studio Code Extension](https://marketplace.visualstudio.com/items?itemName=ms-python.python), [Python OpenCV](https://pypi.org/project/opencv-python/), [numpy](http://www.numpy.org/), and [pyscreenshot Website](https://pypi.org/project/pyscreenshot/). To run this project you will have to install python, python OpenCV, and numpy. 
 
-Modefied in Visual Studio Code. 
-1 Install [Python Interpreter Install](https://www.python.org/downloads/)
-2) Add Python Extension for Visual Studio Code: [Extension](https://marketplace.visualstudio.com/items?itemName=ms-python.python)
-3) Add openCV and pyscreenshot
+# Setting Up Visual Studio:  
+1 Install [Python Interpreter Install](https://www.python.org/downloads/). When setting it up select to add python as an environment path. 
+2) Add [Python Visual Studio Code Extension](https://marketplace.visualstudio.com/items?itemName=ms-python.python) by selecting install. Check to make sure that the python interpreter you installed is being used. 
+3) (Optional) Set up Visual Studio Code to open a bash terminal. Make sure that python is in the path of the bash terminal. Note: you don't have to use the terminal in visual studio you can just use a terminal not opened in visual studio. 
+4) pip exists in your terminal if python is in the path. To add python to the path run the Pytho Interpreter SetUp and choose to add python to the path. 
 
+
+DEPRICATED: This is a python program that is being modified in the [Python IDLE terminal](https://www.python.org/downloads/)
 
 ## Installing Python 
 - To install python follow the: [Python Windows Install](https://www.python.org/downloads/) 
@@ -71,6 +74,13 @@ Modefied in Visual Studio Code.
 
 ## Installing TensorFlow 
 
+
+## Check to see everything is set up correctly
+- Run `$ python testEnvironment.py`. You should see the version numbers of installed packages.
+- Results: <br/>
+	$ opencv: 4.0.0
+	$ numpy: 1.15.4
+	$ pyscreenshot: 0.5.1
 
 # Run the program
 - Open the .py file in the Python IDLE terminal and hit run. 
