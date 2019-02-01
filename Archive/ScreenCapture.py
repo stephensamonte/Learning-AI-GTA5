@@ -1,20 +1,25 @@
 
+# This was replaced by Mss Screen capture
+# I was only able to get about 3 frames per second with pyscreenshot
+
 import numpy as np
 import cv2
 import pyscreenshot as ImageGrab
 import time
 
 def screen_capture():
-    last_time = time.time()
+    # last_time = time.time()
 
     while (True): 
+        last_time = time.time()
         # grab fullscreen
         # im = ImageGrab.grab()
 
         # Capture a section of the screen
         screenImg = ImageGrab.grab(bbox=(50,50,800,640))  # X1,Y1,X2,Y2
 
-        print('Loop took {} seconds',format(time.time()-last_time))
+        # print('Loop took {} seconds',format(time.time()-last_time))
+        print("fps: {}".format(1 / (time.time() - last_time)))
         
         # Displays image in new window
         # cv2.imshow('test', np.array(screenImg))
