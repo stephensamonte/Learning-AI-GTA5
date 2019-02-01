@@ -1,6 +1,6 @@
 # Learning-AI-GTA5
 
-GTA 5 is the closest simulation of living life. The end goal of this project is to create a general AI that understands its surroundings and can make decisions on its own.
+GTA 5 is the closest simulation of living life. The end goal of this project is to create a general AI that understands its surroundings and can make decisions on its own. If we humans can drive a car in GTA5 with just visual input then this AI should be able to too.
 
 Disclaimer: I don't expect to succeed at creating a general AI. I do expect to create a program that can play GTA 5 well. I think it will be a mash up of multiple AIs. 
 
@@ -8,6 +8,9 @@ Disclaimer: I don't expect to succeed at creating a general AI. I do expect to c
 [![Latest Showcase](https://img.youtube.com/vi/I6uy5MXM1rs/0.jpg)](https://www.youtube.com/watch?v=I6uy5MXM1rs)
 
 # Current Goals: 
+- Research How to make a general AI
+- Use OpenCV to detect objects 
+- Determine where the road is. 
 - Create functions to call Keyboard interaction
 
 # Game Environment 
