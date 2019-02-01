@@ -72,9 +72,9 @@ DEPRICATED: This is a python program that is being modified in the [Python IDLE 
 ## Check to see everything is set up correctly
 - Run `$ python testEnvironment.py`. You should see the version numbers of installed packages.
 - Results: <br/>
-	$ opencv: 4.0.0
-	$ numpy: 1.15.4
-	$ pyscreenshot: 0.5.1
+	$ opencv: 4.0.0 <br/>
+	$ numpy: 1.15.4 <br/>
+	$ pyscreenshot: 0.5.1 <br/>
 
 # Run the program
 - Open the .py file in the Python IDLE terminal and hit run. 
