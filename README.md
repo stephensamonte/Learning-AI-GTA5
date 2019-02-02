@@ -4,6 +4,8 @@ GTA 5 is the closest simulation of living life. The end goal of this project is 
 
 Disclaimer: I don't expect to succeed at creating a general AI. I do expect to create a program that can play GTA 5 well. I think it will be a mash up of multiple AIs. 
 
+This is just a high aiming project to challenge me to learn new things. 
+
 ## Latest Showcase Video: 
 [![Latest Showcase](https://img.youtube.com/vi/I6uy5MXM1rs/0.jpg)](https://www.youtube.com/watch?v=I6uy5MXM1rs)
 
