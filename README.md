@@ -6,6 +6,9 @@ Disclaimer: I don't expect to succeed at creating a general AI. I do expect to c
 
 This is just a high aiming project to challenge me to learn new things. 
 
+# NOTE: This project is no longer being worked on because I need a computer with a more powerful GPU. 
+Currently I have a laptop with an integrated graphics card. It is is not powerful enought for machine learning training that I wish to do for this project. 
+
 ## Latest Showcase Video: 
 [![Latest Showcase](https://img.youtube.com/vi/I6uy5MXM1rs/0.jpg)](https://www.youtube.com/watch?v=I6uy5MXM1rs)
 
